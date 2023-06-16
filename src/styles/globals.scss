@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import './card';
+
+body{
+        background-color: hsl(210, 46%, 95%);
+}

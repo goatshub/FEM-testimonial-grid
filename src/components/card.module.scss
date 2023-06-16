@@ -1,0 +1,16 @@
+.card{    
+        font-size: 13px;  
+        @apply flex flex-col gap-5 p-8 rounded-xl ;
+}
+.userHeader{
+        @apply flex gap-6 leading-tight;
+        div{
+                h2{
+                        @apply font-semibold;
+                }
+                p{
+                        @apply opacity-50
+                }
+        }
+        
+}

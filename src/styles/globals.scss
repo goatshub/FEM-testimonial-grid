@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./card";
 
-@import './card';
-
-body{
-        background-color: hsl(210, 46%, 95%);
+body {
+  background-color: hsl(210, 46%, 95%);
 }

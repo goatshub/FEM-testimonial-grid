@@ -1,6 +1,6 @@
-.cardGrid{
-        max-width: 1230px;
-        display: grid;
-        gap: 25px;
-        @apply sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+.cardGrid {
+  max-width: 1120px;
+  display: grid;
+  gap: 25px;
+  @apply sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
 }

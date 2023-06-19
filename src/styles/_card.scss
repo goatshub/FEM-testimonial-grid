@@ -1,44 +1,43 @@
-.card{
-        --card-bg-color: hsl(0, 0%, 100%);
-        --card-text-color: hsl(217, 19%, 35%);
-        --card-profile-color: hsla(0, 0%, 100%, 0.8);
+.card {
+  --card-bg-color: hsl(0, 0%, 100%);
+  --card-text-color: hsl(217, 19%, 35%);
+  --card-profile-color: hsla(0, 0%, 100%, 0.8);
 
-        background-color: var(--card-bg-color); 
-        color: var(--card-text-color);
+  background-color: var(--card-bg-color);
+  color: var(--card-text-color);
 }
-@mixin card-shadow{
-        @apply shadow-2xl shadow-slate-400;
+@mixin card-shadow {
+  @apply shadow-2xl shadow-slate-400;
 }
-.card.card-white{
-        @include card-shadow;
+.card.card-white {
+  @include card-shadow;
 }
-.card.card-white-2row{
-        @include card-shadow;
-        @apply sm:col-span-2 md:col-span-3 lg:col-span-1 lg:row-span-2 lg:row-start-1 lg:col-start-4;
-}
-
-.card.card-grey{
-        --card-text-color: white;
-        --card-bg-color: hsl(217, 19%, 35%);
+.card.card-white-2row {
+  @include card-shadow;
+  @apply sm:col-span-2 md:col-span-3 lg:col-span-1 lg:row-span-2 lg:row-start-1 lg:col-start-4;
 }
 
-.card.card-purple{
-        --card-bg-color: hsl(263, 55%, 52%);
-        --card-text-color: white;
-        background-image: url('/images/bg-pattern-quotation.svg');
-        background-repeat: no-repeat;
-        background-position: 80% top;
-        @apply md:col-span-2;
-
+.card.card-grey {
+  --card-text-color: white;
+  --card-bg-color: hsl(217, 19%, 35%);
 }
 
-.card.card-darkGrey{
-        --card-bg-color: hsl(219, 29%, 14%);
-        --card-text-color: white;
-        --card-profile-color: hsl(263, 55%, 52%);
-        @apply md:col-span-2;
+.card.card-purple {
+  --card-bg-color: hsl(263, 55%, 52%);
+  --card-text-color: white;
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 80% top;
+  @apply md:col-span-2;
 }
 
-.profileImg{
-        border-color: var(--card-profile-color); 
+.card.card-darkGrey {
+  --card-bg-color: hsl(219, 29%, 14%);
+  --card-text-color: white;
+  --card-profile-color: hsl(263, 55%, 52%);
+  @apply md:col-span-2;
+}
+
+.profileImg {
+  border-color: var(--card-profile-color);
 }
